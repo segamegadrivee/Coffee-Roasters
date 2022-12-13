@@ -3,3 +3,25 @@
     padding: 0 160px;
     margin: 0 auto;
 }
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 0px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 40px;
+}
+
+
+.header__nav-row {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
