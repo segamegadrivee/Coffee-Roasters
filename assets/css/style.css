@@ -38,7 +38,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-position-y: 40%;
+    background-position-y: 0%;
 }
 
 .header__container {
@@ -64,14 +64,16 @@ body {
 .hero__content {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    padding: 87px;
     padding-top: 103px;
     padding-bottom: 274px;
     gap: 48px;
 }
 
 .hero__content-text {
-    width: 763px;
-    height: 120px;
+    /* width: 763px;
+    height: 120px; */
     text-align: center;
 }
