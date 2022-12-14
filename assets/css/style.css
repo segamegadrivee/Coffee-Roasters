@@ -20,17 +20,17 @@
 }
 
 
-.wrapper {
+/* .wrapper {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-}
+} */
 
 
 .hero {
     background-image: url(../img/hero.jpg);
     background-size: cover;
-    height: 100vh;
+    
 }
 
 .header__container {
