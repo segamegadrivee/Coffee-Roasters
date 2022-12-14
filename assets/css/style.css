@@ -2,7 +2,7 @@ html,
 body {
     overflow-x: hidden;
     background-color: black;
-    min-width: 575px;
+   
 }
 
 
@@ -40,7 +40,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-position-y: 0%;
+    background-position-y: 40%;
 }
 
 .header__container {
@@ -78,4 +78,12 @@ body {
     /* width: 763px;
     height: 120px; */
     text-align: center;
+}
+
+
+.features__container{
+    height: 800px;
+    background-image: url(../img/features-bg.jpg);
+    background-size: cover; 
+    
 }
