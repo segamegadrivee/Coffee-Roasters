@@ -2,6 +2,7 @@ html,
 body {
     overflow-x: hidden;
     background-color: black;
+    min-width: 575px;
 }
 
 
