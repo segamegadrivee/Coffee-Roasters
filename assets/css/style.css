@@ -1,3 +1,9 @@
+html,
+body {
+    overflow-x: hidden;
+
+}
+
 .container {
     max-width: 1120px;
     padding: 0 160px;
@@ -20,17 +26,18 @@
 }
 
 
-/* .wrapper {
+.wrapper {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-} */
+}
 
 
 .hero {
     background-image: url(../img/hero.jpg);
-    background-size: cover;
-    
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: 40%;
 }
 
 .header__container {
@@ -46,8 +53,9 @@
     align-items: center;
     gap: 40px;
 }
+
 @media screen and (max-width: 768px) {
-    .header__nav-row{
+    .header__nav-row {
         display: none;
     }
 }
@@ -56,6 +64,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 103px;
+    padding-bottom: 274px;
     gap: 48px;
 }
 
@@ -64,4 +74,3 @@
     height: 120px;
     text-align: center;
 }
-
