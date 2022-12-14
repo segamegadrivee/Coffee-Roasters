@@ -4,6 +4,9 @@ body {
 
 }
 
+body {
+    background-color: darkkhaki;
+}
 .container {
     max-width: 1120px;
     padding: 0 160px;
