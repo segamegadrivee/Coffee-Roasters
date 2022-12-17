@@ -38,17 +38,6 @@
             <header class="header">
                 <div class="header__container">
                     <span class="h6 header__logo"> Coffee House </span>
-                    <nav class="header__nav">
-                        <ul class="header__nav-row">
-                            <li class="h6 nav__item">Home</li>
-                            <li class="h6 nav__item">Why Us</li>
-                            <li class="h6 nav__item">Menu</li>
-                            <li class="h6 nav__item">Happy Clients</li>
-                            <li class="h6 nav__item">Blog</li>
-                            <li class="h6 nav__item">Our Location</li>
-                            <li class="h6 nav__item">Newsletter</li>
-                        </ul>
-                    </nav>
 
                     <div class="hamburger-menu">
                         <input id="menu__toggle" type="checkbox" />
@@ -57,13 +46,29 @@
                         </label>
 
                         <ul class="menu__box">
-                            <li><a class="menu__item" href="#">Главная</a></li>
-                            <li><a class="menu__item" href="#">Проекты</a></li>
-                            <li><a class="menu__item" href="#">Команда</a></li>
-                            <li><a class="menu__item" href="#">Блог</a></li>
-                            <li><a class="menu__item" href="#">Контакты</a></li>
+                            <li><a class="h6 menu__item" href="#">Home</a></li>
+                            <li><a class="h6 menu__item" href="#">Why Us</a></li>
+                            <li><a class="h6 menu__item" href="#">Menu</a></li>
+                            <li><a class="h6 menu__item" href="#">Happy Clients</a></li>
+                            <li><a class="h6 menu__item" href="#">Blog</a></li>
+                            <li><a class="h6 menu__item" href="#">Our Location</a></li>
+                            <li><a class="h6 menu__item" href="#">Newsletter</a></li>
                         </ul>
                     </div>
+
+                    <nav class="header__nav">
+                        <ul class="header__nav-row">
+                            <li><a class="h6 nav__item" href="#">Why Us</a></li>
+                            <li><a class="h6 nav__item" href="#">Menu</a></li>
+                            <li><a class="h6 nav__item" href="#">Happy Clients</a></li>
+                            <li><a class="h6 nav__item" href="#">Blog</a></li>
+                            <li><a class="h6 nav__item" href="#">Home</a></li>
+                            <li><a class="h6 nav__item" href="#">Our Location</a></li>
+                            <li><a class="h6 nav__item" href="#">Newsletter</a></li>
+                        </ul>
+                    </nav>
+
+
                 </div>
             </header>
 
@@ -73,7 +78,7 @@
                 <p class="h4 hero__content-text">We source our coffee seasonally, from farmers <br> who care, and roast
                     to
                     highlight what makes them <br> special.</p>
-                <button class="button hero__content-button">View our menu</button>
+                <button class="button hero__content-button"><a href="#menu">View our menu</a></button>
             </div>
         </section>
 
@@ -138,16 +143,18 @@
             </div>
         </section>
 
-
-
         <section class="book">
             <div class="book__container">
-
                 <p class="book__title section-title">Looking for a fresh coffee?</p>
                 <p class="p">Come drink a coffee with us on <br>
                     Fleet Street, Chancery Lane or Milkwood Road!</p>
                 <button class="button">Book a table</button>
+            </div>
+        </section>
 
+        <section class="menu" id="menu">
+            <div class="menu__container">
+              <img class="menu__img" src="./assets/img/menu.jpg" alt="img" >
             </div>
         </section>
     </div>
