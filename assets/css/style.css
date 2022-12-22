@@ -308,14 +308,38 @@ body {
 
 .menu__container {
     display: flex;
-    justify-content: center;
-    height: 912px;
+    flex-direction: column;
+    align-items: center;
+    /* height: 912px; */
+    gap: 48px;
+    padding: 96px 161px;
     background-color: #EEEEEE;
+
 }
 
-.menu__img {
-    height: 800px;
+.menu .menu__title {
+    color: #000000;
 }
+
+.menu .menu__subtitle {
+    text-align: center;
+}
+
+.menu__container .p {
+    color: #000000;
+}
+
+.menu__container .menu__item {
+    display: flex;
+    justify-content: space-between ;
+    align-items: flex-start;
+    max-width: 544px;
+    padding: 0px;
+    gap: 24px;
+}
+
+
+
 
 
 .location__container {
